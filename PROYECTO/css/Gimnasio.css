@@ -1,0 +1,205 @@
+#hover a:hover{
+    background-color: green;
+}
+.container a{
+    font-family: 'Quintessential', cursive;
+}
+#footer{
+    color: white;
+}
+#abajo{
+    justify-content: center;
+    align-items: center;
+}
+#registro{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+}
+.fuente{
+    font-family: 'Quintessential', cursive;
+}
+label{
+    font-weight: bold;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Quintessential', cursive;
+}
+thead,tbody,th,td{
+    border: 1px solid;
+    text-align: center;
+}
+thead{
+    background-color: cadetblue;
+}
+
+.dropdown-toggle{
+    text-decoration: none; 
+    color: white;
+}
+.quitar{
+ text-decoration: none;  
+}
+section .fuente{
+    text-align: center; 
+}
+.carousel-item img{
+    height: 80vh;
+}
+td:first-child{
+    background-color: cadetblue;
+}
+.zumba{
+    background-color: #E4BCD4; 
+}
+.boxeo{
+    background-color:#D6DBDF ;
+}
+.salsa{
+    background-color:#FCF3CF;
+}
+.step{
+    background-color: darkgray;
+}
+.spinning{
+    background-color: #C6E1F1;
+}
+.bodypump{
+    background-color: #FADBD8;
+}
+#zumba{
+    background-color:  #E4BCD4; 
+}
+#salsa{
+    background-color: #FCF3CF ;
+}
+#step{
+    background-color: darkgray;
+}
+#spinning{
+    background-color: #C6E1F1;
+}
+#boxeo{
+    background-color:#D6DBDF ;
+}
+#bodypump{
+    background-color: #FADBD8;
+}
+#fondo{
+    background-image: url(../img/logo.png) ;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    opacity: 0.4;
+    background-position: center;
+}
+#perfil{
+    position: relative;
+}
+#inicio{
+    text-decoration: none;
+    color: white;
+}
+#editarperfil{
+    background-color: #FCF3CF;
+}
+#conocenos{
+    background-color: #FCF3CF;
+}
+.alta{
+    color: green;
+}
+.baja{
+    color: red;
+}
+#tabla_administrar td:nth-child(2), #tabla_administrar td:nth-child(3), #tabla_administrar td:nth-child(4), #tabla_administrar td:nth-child(5){
+    background-color: #FCF3CF;
+}
+#administracion{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1000px){
+    table,thead,tr,th,tbody,tr,td{
+        display: block;
+    }
+    thead{
+        display: none;
+    }
+    td{
+        text-align: left;
+        padding-left: 50%;
+    }
+    td:nth-child(1):before{
+        content: "HORARIO";
+        position: absolute;
+        left: 20px;
+    }
+    #tabla_actividad td:nth-child(2):before{
+        content: "LUNES";
+        position: absolute;
+        left: 20px;
+    }
+    td:nth-child(3):before{
+        content: "MARTES";
+        position: absolute;
+        left: 20px;
+    }
+    td:nth-child(4)::before{
+        content: "MIERCOLES";
+        position: absolute;
+        left: 20px;
+    }
+    td:nth-child(5)::before{
+        content: "JUEVES";
+        position: absolute;
+        left: 20px;
+    }
+    td:nth-child(6)::before{
+        content: "VIERNES";
+        position: absolute;
+        left: 20px;
+    }
+   #formulario{
+       flex-direction: column-reverse;
+   }
+   #tabla_administrar td:nth-child(1):before {
+        content: "FOTO";
+        position: absolute;
+        left: 20px;
+   }
+   #tabla_administrar td:nth-child(2):before {
+        content: "NOMBRE";
+        position: absolute;
+        left: 20px;
+    }
+    #tabla_administrar td:nth-child(3):before {
+        content: "APELLIDOS";
+        position: absolute;
+        left: 20px;
+    }
+    #tabla_administrar td:nth-child(4):before {
+        content: "DNI";
+        position: absolute;
+        left: 20px;
+    }
+    #tabla_administrar td:nth-child(5):before {
+        content: "ADMINISTRACION";
+        position: absolute;
+        left: 20px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .carousel-item img{
+        height: 40vh;
+    }
+    #registro{
+        width: 80%;
+    }
+}

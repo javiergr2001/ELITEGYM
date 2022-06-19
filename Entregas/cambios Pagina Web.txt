@@ -1,0 +1,6 @@
+Añadir  tabla proveedor 
+Quitar relacion producto con Empresa
+datos proveedor: nombre,telefono,dirección,codigo proveedor.
+
+Hacer pagina para usuarios 
+Hacer apartados tienda 
